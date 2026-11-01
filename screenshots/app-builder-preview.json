@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "INSANE UI LAB",
+      "hasCanvas": false,
+      "bodyTextLen": 27,
+      "bodyTextHash": "971c1e594a2c1ef4c8e3a63dd5a11b4aad50f3a42b891f49e729aef44c48eb63",
+      "bodyTextPrefix": "INSANE UI LAB INSANE UI LAB",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "INSANE UI LAB",
+      "hasCanvas": true,
+      "bodyTextLen": 204,
+      "bodyTextHash": "bcc1611b29ba50d3929fbeece77976dc30957b4dbf7611fae885214d637e6094",
+      "bodyTextPrefix": "INSANE UI LAB Touch the glass LABORATORY INSANE UI LAB Touch som",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

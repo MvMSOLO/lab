@@ -1,0 +1,541 @@
+INSANE UI LAB — MASTER BUILD PROMPT
+
+Next-Generation Interactive ASMR, Satisfying Touch & Nostalgic Dream Experience
+
+Act as a world-class creative director, senior frontend engineer, motion designer, sound designer, interaction specialist, and experimental digital artist.
+
+Build a complete, functional, visually extraordinary application called INSANE UI LAB.
+
+This must NOT look like a generic dashboard, template website, ordinary portfolio, or standard glassmorphism demo.
+
+Create a living, interactive digital playground where every touch feels physical, every animation feels impossibly smooth, every sound is satisfying, the background music evokes nostalgic memories, and hidden secrets make users curious enough to explore for hours.
+
+The experience should feel like a combination of:
+
+- Premium experimental design from the future.
+- Liquid glass and polished obsidian.
+- ASMR interaction and tactile sound design.
+- Nostalgic late-night digital memories.
+- Dreamcore, liminal spaces, and subtle psychological horror.
+- An experimental art installation that lives inside a screen.
+
+The result must be beautiful, immersive, surprising, polished, and genuinely usable.
+
+1. TECHNICAL REQUIREMENTS
+
+Build a complete, runnable application using HTML, CSS, and JavaScript in a single self-contained HTML file.
+
+Use no framework, build step, package installation, backend, API key, or mandatory external dependency.
+
+The application must work when opened directly in a modern mobile browser.
+
+Use inline SVG, CSS-generated visuals, Canvas where useful, and the Web Audio API for sound synthesis.
+
+Do not rely on remote images, externally hosted audio, or network connectivity for core functionality.
+
+All primary interactions must work. No fake buttons, dead controls, placeholder sections, or decorative elements pretending to be functional features.
+
+Persist appropriate user preferences and unlocked discoveries with localStorage. Handle storage errors gracefully.
+
+Support mobile touchscreens, desktop mouse input, and keyboard interaction.
+
+2. ART DIRECTION — OBSESSIVELY BEAUTIFUL
+
+Create an original visual identity that feels expensive, mysterious, tactile, and cinematic.
+
+Color palette:
+
+- Obsidian black: #08090D.
+- Midnight blue-black: #101522.
+- Smoky violet: #8777FF.
+- Icy cyan: #A5F4FF.
+- Pearl white: #F4F2FF.
+- Very restrained silver and muted pink highlights.
+
+Avoid oversaturated rainbow gradients, cheap neon cyberpunk, excessive purple glow, clutter, and generic AI-generated dashboard aesthetics.
+
+Use a sophisticated balance of negative space, depth, contrast, and subtle lighting.
+
+Background atmosphere
+
+Create a layered living environment:
+
+- Deep dark gradient background.
+- Extremely subtle film grain.
+- Slow-moving volumetric light fields.
+- Soft atmospheric haze.
+- Tiny floating dust particles.
+- Gentle ambient light responding to interaction.
+- Subtle chromatic aberration only during special events.
+- Faint grid or abstract geometric patterns that appear occasionally.
+- An extremely restrained nostalgic CRT-inspired texture in special modes.
+
+The background must feel alive but never compete with the content.
+
+Use CSS gradients, procedural noise, Canvas, or SVG instead of requiring external assets.
+
+Typography
+
+Use a clean modern sans-serif system stack with carefully tuned weights, letter spacing, line height, and hierarchy.
+
+Combine bold editorial headings with small uppercase laboratory labels and delicate metadata.
+
+Use smooth, readable typography. Avoid excessive text and tiny illegible labels.
+
+Glassmorphism system
+
+Develop a consistent design system for:
+
+- Floating translucent glass cards.
+- Frosted-glass navigation.
+- Liquid-glass buttons.
+- Layered panels with subtle internal reflections.
+- Hairline borders.
+- Soft ambient shadows.
+- Specular highlights that move with interaction.
+- Convincing depth without excessive blur.
+
+Use backdrop-filter when supported, with graceful fallbacks.
+
+Every glass surface should have carefully controlled opacity, edge lighting, reflections, and contrast.
+
+Buttons must feel like physical objects suspended above a dark surface.
+
+3. APP STRUCTURE
+
+Create a polished single-page experience with these main areas:
+
+A. Cinematic boot sequence.
+B. Main interactive laboratory.
+C. Satisfying playground.
+D. Sound and nostalgic music controls.
+E. Hidden experimental rooms.
+F. Discovery journal and achievement collection.
+G. Settings and accessibility controls.
+
+Navigation must be intuitive on a phone. Use a floating bottom dock or compact glass navigation with custom animated icons.
+
+Do not overload the first screen.
+
+4. CINEMATIC BOOT SEQUENCE
+
+On first launch, create a short, beautifully choreographed introduction.
+
+Sequence:
+
+1. A nearly black screen.
+2. A tiny cold-white point of light appears.
+3. A thin glowing line expands from the point.
+4. A translucent glass sphere materializes.
+5. The sphere gently pulses with a subtle synthetic resonance.
+6. The words INSANE UI LAB appear through an elegant masked reveal.
+7. The interface assembles from softly floating translucent layers.
+8. A small invitation appears: "Touch something. Discover something."
+
+The sequence should take approximately 2–4 seconds and be skippable.
+
+Never autoplay sound before user interaction.
+
+After the first visit, use a faster returning-user entrance.
+
+5. THE SATISFYING PLAYGROUND
+
+This is the heart of the application.
+
+Create a visually stunning central interactive object, such as a liquid-glass orb floating above a subtle illuminated platform.
+
+The object must respond to actual user input.
+
+Interactions include:
+
+- Tap: a soft radial ripple spreads from the touch point.
+- Double tap: two overlapping waves produce a richer reaction.
+- Press and hold: the orb slowly compresses and accumulates light.
+- Release: it expands with a satisfying elastic rebound.
+- Drag: the object follows the finger with smooth spring physics.
+- Swipe: a wave of light travels through the scene.
+- Rapid tapping: an increasingly complex but controlled sequence of ripples.
+- Two-finger touch: a special symmetrical wave interaction.
+- Pinch: the environment subtly changes scale or depth.
+- Idle state: the orb slowly breathes and reflects ambient light.
+
+Use actual touch coordinates. Avoid interactions that only play a canned animation regardless of where the user touches.
+
+The physics must feel responsive, soft, and premium.
+
+Use spring-like interpolation, damped motion, velocity-sensitive effects, and carefully tuned easing.
+
+Never use harsh default browser animations or abrupt snapping.
+
+6. SATISFYING MICRO-INTERACTIONS
+
+Every interactive element should have a distinctive tactile response.
+
+Design:
+
+- Buttons that gently depress into their glass surfaces.
+- Toggle switches with a fluid liquid transition.
+- Sliders that feel magnetic and glide smoothly.
+- Cards that subtly tilt with pointer movement.
+- Icons that morph rather than simply swap.
+- Circular controls with rotating light rings.
+- Menus that unfold like thin sheets of glass.
+- Small floating particles that react to taps.
+- Progress indicators that fill like liquid.
+- Checkmarks that draw themselves.
+- Success states with soft expanding halos.
+- Modal windows that materialize with depth and blur.
+- Navigation transitions that preserve spatial continuity.
+
+Every interaction should include appropriate visual feedback, but not every action should use the same animation.
+
+Use a coherent motion language with different timing for different physical effects.
+
+Aim for 60 FPS on ordinary mobile hardware. Prefer transform and opacity animations, minimize layout thrashing, and reduce expensive blur effects when necessary.
+
+Never promise 120 FPS on hardware that cannot sustain it.
+
+7. SOUND DESIGN — A FULL ASMR SYSTEM
+
+Build a genuine interactive audio system using the Web Audio API.
+
+All sound must be generated locally or derived from original synthesized sound design. Do not use copyrighted music or samples.
+
+Create a sound palette including:
+
+- Soft glass taps.
+- Delicate ceramic clicks.
+- Liquid droplets.
+- Gentle crystalline resonances.
+- Smooth rubbery pops.
+- Airy swishes.
+- Subtle low-frequency thumps.
+- Delicate metallic shimmer.
+- Soft granular textures.
+- Warm, short reverberant tails.
+- Tiny high-frequency sparkles.
+
+Different components should have different sound identities.
+
+A glass button should not sound like a ceramic button. A liquid orb should not sound like a metal switch.
+
+Dynamic audio response
+
+Sound must respond to:
+
+- Touch location.
+- Tap intensity where measurable.
+- Gesture speed.
+- Hold duration.
+- Release timing.
+- Interaction type.
+- The current environment.
+
+Use gentle synthesized oscillators, filtered noise, envelopes, carefully controlled resonances, and short delays.
+
+Use AudioContext, gain nodes, filters, and oscillators appropriately.
+
+Avoid harsh sine-wave beeps, loud clicks, clipping, sudden volume spikes, and repetitive annoying sounds.
+
+Implement a master volume slider, independent music and effects volume controls, and a global mute switch.
+
+Respect mobile browser audio restrictions: initialize or resume audio only after a valid user gesture.
+
+Prevent audio nodes and event listeners from accumulating during repeated interactions.
+
+8. NOSTALGIC BACKGROUND MUSIC
+
+Create an original procedural ambient music engine.
+
+The sound should evoke:
+
+- Late-night computer sessions.
+- Empty digital spaces.
+- Childhood memories of old games.
+- Rainy evenings.
+- Forgotten virtual worlds.
+- A distant memory that feels familiar but cannot quite be recalled.
+
+Musical direction:
+
+- Soft analog-style pads.
+- Sparse bell-like notes.
+- Warm detuned tones.
+- Gentle tape-like wobble.
+- Very subtle vinyl-style noise.
+- Slow, dreamy harmonic movement.
+- Occasional distant chimes.
+- Spacious reverb.
+- Slow rhythmic pulses with no aggressive beat.
+
+The music must feel emotional, nostalgic, slightly mysterious, and calming.
+
+Compose an original repeating harmonic progression with subtle variations in timing, pitch, and texture.
+
+Generate the musical layers procedurally using the Web Audio API. Use slow envelopes and careful filtering.
+
+Avoid loud drums, generic EDM, excessive bass, and distracting melodies.
+
+The soundtrack must continue seamlessly while navigating between laboratory sections.
+
+Provide these selectable sound environments:
+
+1. DREAM MEMORY — warm nostalgic pads.
+2. EMPTY MALL — spacious, hollow, distant ambience.
+3. MIDNIGHT COMPUTER — soft digital hum and delicate synth tones.
+4. RAIN ON GLASS — synthetic rain-like textures and warm harmonic tones.
+5. LIMINAL SIGNAL — beautiful but subtly unsettling ambient tones.
+6. SILENT SPACE — visual experience with all audio disabled.
+
+Each environment must have its own genuinely distinct procedural sound character, not just a renamed identical loop.
+
+Allow music to fade in and out smoothly.
+
+9. THE HORROR THAT FEELS BEAUTIFUL
+
+Introduce an optional secret psychological-horror layer.
+
+It must be subtle, atmospheric, unpredictable, and artistically integrated into the interface.
+
+Do not use graphic violence, gore, loud jumpscares, or obnoxious flashing.
+
+The horror should come from the feeling that the laboratory is quietly aware of the user.
+
+Examples:
+
+- A reflection in the orb moves a fraction of a second late.
+- A decorative light blinks in an unusual pattern.
+- An ambient note briefly changes to an unexpected but harmonious pitch.
+- A normally symmetrical ripple becomes slightly asymmetric.
+- A label changes for one frame before returning to normal.
+- A shadow appears in the background only under specific conditions.
+- A familiar button behaves differently after several repeated interactions.
+- A tiny message appears in a hidden reflection.
+- A previously discovered room seems subtly different when revisited.
+- A sequence of taps triggers a short, mysterious transmission.
+
+These events must be implemented deliberately, not randomly broken UI.
+
+Keep all primary controls reliable and functional.
+
+Add a setting to disable the horror layer completely.
+
+No fake system warnings, fake malware messages, fake security alerts, or attempts to convince the user their real device has been compromised.
+
+10. HIDDEN EASTER EGGS
+
+Build at least 12 distinct, working secrets.
+
+Each secret should have a real trigger, unique response, and persistent discovery record.
+
+Ideas include:
+
+1. Tap the main orb seven times with a specific rhythm.
+2. Hold the laboratory logo for three seconds.
+3. Draw a small spiral on the orb.
+4. Enter a specific sequence of navigation taps.
+5. Touch four hidden points around the screen in order.
+6. Stay idle for a certain period.
+7. Discover a reflection that reacts differently at night-mode brightness.
+8. Double-tap a tiny decorative star.
+9. Change sound environments in a particular sequence.
+10. Interact with the orb using two fingers and release simultaneously.
+11. Find a hidden symbol that appears briefly during a transition.
+12. Trigger a special event after discovering several other secrets.
+
+For every easter egg:
+
+- Validate the actual trigger.
+- Play a distinct sound or sound motif when audio is enabled.
+- Show a beautiful, understated visual reveal.
+- Unlock a unique entry in the discovery journal.
+- Save the discovery locally.
+- Avoid exposing all secret solutions in the main interface.
+
+Add rare events with low but fair trigger probabilities, cooldowns, and session limits.
+
+Do not make essential features dependent on luck.
+
+11. SECRET ROOMS
+
+Create at least four unlockable environments:
+
+ROOM 01 — GLASS GARDEN
+A peaceful world of translucent objects, tiny reflections, and soft crystalline tones.
+
+ROOM 02 — LOST FREQUENCY
+An empty midnight environment with an old-computer aesthetic, soft scanlines, and a mysterious radio-like synthesizer.
+
+ROOM 03 — THE MIRROR
+A reflection-focused room where the cursor, orb, and ambient lighting behave with subtly uncanny delays.
+
+ROOM 04 — NULL SPACE
+A nearly empty black environment with a single glowing object, minimal ambient sound, and extremely restrained visual events.
+
+Each room must have its own:
+
+- Visual palette.
+- Interaction rules.
+- Background atmosphere.
+- Sound palette.
+- Entrance and exit transitions.
+- Hidden discovery.
+
+Unlock rooms through actual discoveries, not fake buttons.
+
+12. DISCOVERY JOURNAL
+
+Create a beautifully designed archive of discovered secrets.
+
+Include:
+
+- Discovered and undiscovered entries.
+- Minimal custom symbols.
+- Unlock animations.
+- Short mysterious descriptions.
+- Discovery progress.
+- Session statistics.
+- Total interactions.
+- Total rooms discovered.
+
+Undiscovered entries should remain mysterious.
+
+Do not expose their exact unlock instructions.
+
+The journal should feel like an archive of memories rather than a generic achievement dashboard.
+
+Persist progress locally and provide a reset option with confirmation.
+
+13. PREMIUM UI DETAILS
+
+Pay obsessive attention to small details:
+
+- Soft internal light reflections.
+- Fine hairline borders.
+- Subtle specular highlights.
+- Carefully controlled bloom.
+- Realistic-looking layered depth.
+- Smooth modal transitions.
+- Elegant loading states.
+- Thoughtful spacing.
+- Consistent icon proportions.
+- Precise alignment.
+- Responsive typography.
+- Subtle visual feedback for every control.
+- Beautiful empty states.
+- Carefully designed settings.
+- No unnecessary visual clutter.
+
+Use custom inline SVG icons instead of emoji as the primary interface iconography.
+
+Add a dynamic light source that subtly responds to touch and pointer position.
+
+Glass surfaces should refract or distort the visual environment where practical, using lightweight CSS or Canvas effects.
+
+Do not overuse blur. Maintain excellent text contrast.
+
+14. MOBILE-FIRST EXPERIENCE
+
+The application must feel intentionally designed for phones.
+
+Requirements:
+
+- Full-height responsive layout.
+- Safe-area insets for modern phones.
+- Large comfortable touch targets.
+- Smooth touch interactions without accidental page scrolling.
+- Appropriate overscroll behavior.
+- No horizontal overflow.
+- No tiny desktop-style controls.
+- Responsive bottom navigation.
+- Portrait and landscape support.
+- Graceful handling of browser viewport changes.
+- No permanent dependence on hover.
+- No visual glitches when the on-screen keyboard appears.
+
+Use touch-action selectively. Do not globally disable browser gestures when they are needed for accessibility.
+
+Test at a viewport around 390 × 844 CSS pixels and on larger desktop screens.
+
+15. PERFORMANCE AND ACCESSIBILITY
+
+Target smooth 60 FPS on typical mid-range mobile devices.
+
+Implement:
+
+- RequestAnimationFrame for coordinated visual loops.
+- Delta-time-based animation.
+- Efficient particle management.
+- A reasonable particle limit.
+- Cleanup for event listeners and audio resources.
+- Visibility-aware animation pausing.
+- Reduced-motion support.
+- A low-effects mode.
+- An audio-off mode.
+- Keyboard-operable controls.
+- Clear focus states.
+- Accessible names for buttons.
+- Sufficient contrast.
+- No flashing sequences that could create a seizure risk.
+
+On lower-performance devices, reduce particles, shadow complexity, and distortion while preserving the core aesthetic.
+
+The application must remain responsive during continuous tapping and rapid gestures.
+
+16. SETTINGS
+
+Create a premium glass settings panel containing:
+
+- Master volume.
+- Music volume.
+- Effects volume.
+- Music environment selector.
+- Horror mode toggle.
+- Particle intensity.
+- Motion intensity.
+- Reduced-effects mode.
+- Light and dark atmosphere variations.
+- Reset discoveries.
+- Replay introduction.
+
+Every setting must actually change application behavior and persist when appropriate.
+
+17. QUALITY CONTROL
+
+Before considering the application complete, verify:
+
+1. Every visible button performs its intended action.
+2. All major gestures work on mobile.
+3. Audio starts only after a user gesture.
+4. Music and effects can be controlled independently.
+5. All six sound environments are distinct.
+6. The horror layer can be disabled.
+7. At least 12 easter eggs have implemented triggers.
+8. All four secret rooms can be unlocked.
+9. Discovery progress survives a refresh.
+10. The reset process works correctly.
+11. The interface does not overflow on mobile.
+12. Animation loops and audio nodes do not accumulate.
+13. No essential feature relies on an external network.
+14. No broken placeholder controls remain.
+15. The application remains usable with reduced motion and muted audio.
+
+18. FINAL DELIVERY
+
+Return the complete, executable HTML source code in one file.
+
+Include all HTML, CSS, JavaScript, SVG, animation logic, interaction logic, sound synthesis, original procedural music, secret triggers, room logic, settings, and persistence.
+
+Do not provide a partial prototype.
+
+Do not omit features because the specification is ambitious. Prioritize a fully working core experience, then implement the remaining systems without leaving dead controls or pretending that unfinished features are complete.
+
+Keep the code organized into clearly named sections and reusable functions.
+
+The first screen must be immediately impressive, but the deeper interactions should be even more rewarding.
+
+The final experience should make people want to touch the screen just to hear the sound, stay because of the atmosphere, and return because they suspect they have not discovered everything.
+
+Creative principle: Every pixel should feel intentional. Every touch should feel physical. Every sound should feel beautiful. Every secret should feel earned. The interface should feel alive — but never fully explain itself.
+
+Build INSANE UI LAB now.
